@@ -10,12 +10,12 @@ $(function(){
     }
 
     function verificarCliqueFechar(){
-        var el = $('body');
+        var el = $('body,closeBtn');
 
         el.click(function(){
             $('.bg').fadeOut();
         })
 
     } 
-    
+
 });
