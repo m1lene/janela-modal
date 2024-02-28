@@ -18,4 +18,12 @@ $(function(){
 
     } 
 
+    $('form#form1').submit(function(){
+        var nome = $('input[name=nome]').val();
+        var telefone = $('input[name=telefone]').val();
+        var email = $('input[name=email]').val();
+
+        
+        
+    })
 });
